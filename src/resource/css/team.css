@@ -106,9 +106,9 @@
   font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   position: absolute;
-  bottom: 75px;
+  bottom: 10px;
   overflow: hidden;
-  width: 89%;
+  width: 90%;
 }
 
 .card .card-titles {

@@ -18,10 +18,10 @@ function Team() {
                         Teams.map(team => {
                             return <div className="card" key={team.id}>
                                 <span className="card-header"><img loading='lazy' src={team.icon} alt="" height={team.height}
-                                    width={team.width} /></span>
-                                <span className="card-title">
-                                    <h3>{team.name} </h3>
-                                </span>
+                                    width={team.width} />
+                                    <span className="card-title">
+                                        <h3>{team.name} </h3>
+                                    </span></span>
                                 <span className="card-summary">
                                     {team.designation}
                                 </span>
