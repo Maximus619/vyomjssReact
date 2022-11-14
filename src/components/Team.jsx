@@ -17,7 +17,7 @@ function Team() {
                     {
                         Teams.map(team => {
                             return <div className="card" key={team.id}>
-                                <span className="card-header"><img src={team.icon} alt="" height={team.height}
+                                <span className="card-header"><img loading='lazy' src={team.icon} alt="" height={team.height}
                                     width={team.width} /></span>
                                 <span className="card-title">
                                     <h3>{team.name} </h3>
@@ -34,21 +34,7 @@ function Team() {
                             </div>
                         })
                     }
-                    {/* <div className="card">
-                        <span className="card-header"><img src={team.image} alt="N" height='{{team["height"]}}'
-                            width='{{team["width"]}}' /></span>
-                        <span className="card-title">
-                            <h3> </h3>
-                        </span>
-                        <span className="card-summary">
-                        </span>
-                        <span className="card-meta">
-                            <ul className="list-unstyled">
-                                <li><a href="{{team['insta']}}" className="bi bi-instagram"></a>
-                                </li>
-                            </ul>
-                        </span>
-                    </div> */}
+
                 </div>
             </div>
             <hr className="hr-text" data-content="Technical Team" />
@@ -56,7 +42,7 @@ function Team() {
                 <div className="cards">
                     <div className="card">
                         <span className="card-header" >
-                            <img src={Anant} alt="" height="300px" width="260px" />
+                            <img src={Anant} alt="" height="300px" width="270px" />
                             <span className="card-titles" >
                                 <h3> अनंत कुमार गुप्ता</h3>
                             </span>

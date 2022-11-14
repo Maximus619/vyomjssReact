@@ -1,0 +1,74 @@
+[
+    {
+        "id": 0,
+        "name": "Prakhar",
+        "icon": "/art/art4.png",
+        "height": "300px"
+    },
+    {
+        "id": 1,
+        "name": "Swati",
+        "icon": "/art/art5.png",
+        "height": "300px"
+    },
+    {
+        "id": 2,
+        "name": "Aditya",
+        "icon": "/art/art10.png",
+        "height": "300px"
+    },
+    {
+        "id": 3,
+        "name": "Ritu",
+        "icon": "/art/Art1.png",
+        "height": "300px"
+    },
+    {
+        "id": 4,
+        "name": "Swarnima",
+        "icon": "/art/art6.png",
+        "height": "300px"
+    },
+    {
+        "id": 5,
+        "name": "Rudrakshi",
+        "icon": "/art/art7.png",
+        "height": "300px"
+    },
+    {
+        "id": 6,
+        "name": "BhagyaShree",
+        "icon": "/art/art8.png",
+        "height": "300px"
+    },
+    {
+        "id": 7,
+        "name": "Anamika",
+        "icon": "/art/art9.png",
+        "height": "300px"
+    },
+    {
+        "id": 8,
+        "name": "Ritu",
+        "icon": "/art/Art2.png",
+        "height": "300px"
+    },
+    {
+        "id": 9,
+        "name": "Aditya",
+        "icon": "/art/art11.png",
+        "height": "300px"
+    },
+    {
+        "id": 10,
+        "name": "Harshita",
+        "icon": "/art/art12.png",
+        "height": "300px"
+    },
+    {
+        "id": 11,
+        "name": "Harshita",
+        "icon": "/art/art13.png",
+        "height": "300px"
+    }
+]

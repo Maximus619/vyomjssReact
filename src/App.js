@@ -1,21 +1,23 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { React, Suspense, lazy } from 'react';
 import './App.css';
-import Header from './components/Header';
-import Home from './components/Home';
-import About from './components/About';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import Events from './components/Events';
-import Art from './components/Art';
-import Gallery from './components/Gallery';
-import Team from './components/Team';
+const Header = lazy(() => import('./components/Header'));
+const Home = lazy(() => import('./components/Home'));
+const Events = lazy(() => import('./components/Events'));
+const Art = lazy(() => import('./components/Art'));
+const Gallery = lazy(() => import('./components/Gallery'));
+const About = lazy(() => import('./components/About'));
+const Team = lazy(() => import('./components/Team'));
+const Contact = lazy(() => import('./components/Contact'));
+const Footer = lazy(() => import('./components/Footer'));
+
 
 function App() {
   return (
     <>
       <Router>
-        <Header />
-        <div className="container">
+        <Suspense fallback={<div id="loading"></div>}>
+          <Header />
 
           <Routes>
             <Route exact path='/' element={<Home />} />
@@ -26,8 +28,9 @@ function App() {
             <Route exact path='/team' element={<Team />} />
             <Route exact path='/contact' element={<Contact />} />
           </Routes>
-        </div>
-        <Footer />
+
+          <Footer />
+        </Suspense>
       </Router>
     </>
   );

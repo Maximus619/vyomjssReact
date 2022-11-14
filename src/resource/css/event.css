@@ -1,9 +1,42 @@
-.image{
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap');
+
+.image {
   overflow: hidden;
   height: 20%;
   width: 30%;
 }
-.image-fluid{
+
+.image-fluid {
   width: 100%;
   border-radius: 3%;
+}
+
+.mks {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  text-decoration: underline;
+  font-size: 55px;
+  font-weight: 900;
+  color: #165ea6;
+}
+
+.neerja {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  text-decoration: underline;
+  font-size: 55px;
+  font-weight: 900;
+  color: #a73f60;
+}
+
+.manthan {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  text-decoration: underline;
+  font-size: 55px;
+  font-weight: 900;
+  color: #003a4e;
+}
+
+.cap {
+  font-size: 20px;
+  font-style: italic;
+  text-align: justify;
 }

@@ -2,7 +2,7 @@ import { React } from 'react';
 import Carousel1 from '../resource/assests/images/carousel1.png';
 import Carousel2 from '../resource/assests/images/carousel2.png';
 import Carousel3 from '../resource/assests/images/carousel3.png';
-import OpVideo from '../resource/OP.mp4'
+import OpVideo from '../resource/op1.mp4'
 import { Carousel } from 'react-bootstrap';
 import { DefaultPlayer as Video } from 'react-html5video';
 import '../resource/css/html5video/styles.css';
@@ -12,10 +12,10 @@ function Home() {
             <div>
                 <section>
                     <div className="container home mb-2">
-                        व्योम जेएसएसएटी नोएडा की आधिकारिक हिंदी साहित्य सोसाइटी है। समाज की मुख्य दृष्टि परिसर समुदाय और समाज में हिंदी भाषा और साहित्य के लिए जागरूकता और रुचि फैलाना है। परिसर में होने वाले सभी हिंदी साहित्यिक कार्यक्रम हमारे द्वारा आयोजित किए जाते हैं।
+                        व्योम जे.एस.एस. नोएडा की आधिकारिक हिंदी साहित्य सोसाइटी है। समाज की मुख्य दृष्टि परिसर समुदाय और समाज में हिंदी भाषा और साहित्य के लिए जागरूकता और रुचि फैलाना है। परिसर में होने वाले सभी हिंदी साहित्यिक कार्यक्रम हमारे द्वारा आयोजित किए जाते हैं।
                     </div>
                 </section>
-                <section>
+                <section className='mr-5 ml-5'>
                     <Video>
                         <source src={OpVideo} type='video/webm' />
                     </Video>

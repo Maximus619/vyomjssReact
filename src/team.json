@@ -22,7 +22,7 @@
         "name": "उत्सव अरोरा",
         "icon": "/team/utsav.png",
         "height": "300px",
-        "width": "320px",
+        "width": "330px",
         "designation": "उपाध्यक्ष",
         "insta": "https://www.instagram.com/utsav__arora_/"
     },
@@ -39,7 +39,7 @@
         "id": 4,
         "name": "प्राची सिंह",
         "icon": "/team/prachi.png",
-        "height": "500px",
+        "height": "530px",
         "width": "260px",
         "designation": "तकनीकी विभाग अध्यक्ष",
         "insta": "https://www.instagram.com/notthegirlnextdoor3/"
@@ -49,7 +49,7 @@
         "name": "अनंत कुमार गुप्ता",
         "icon": "/team/anant_gupta.png",
         "height": "300px",
-        "width": "260px",
+        "width": "270px",
         "designation": "तकनीकी विभाग अध्यक्ष",
         "insta": "https://www.instagram.com/11_anant/"
     },
@@ -58,7 +58,7 @@
         "name": "अमित यादव",
         "icon": "/team/amit_yadav.png",
         "height": "300px",
-        "width": "320px",
+        "width": "330px",
         "designation": "लेखन एवं सम्पादन विभाग अध्यक्ष",
         "insta": "https://www.instagram.com/i_vyomyadav/"
     },
@@ -111,7 +111,7 @@
         "id": 12,
         "name": "स्वाती मिश्रा",
         "icon": "/team/swati.png",
-        "height": "300px",
+        "height": "330px",
         "width": "260px",
         "designation": "सर्जनात्मक अध्यक्ष",
         "insta": "https://www.instagram.com/swatirenukaindra/"
@@ -120,7 +120,7 @@
         "id": 13,
         "name": "शिवा कुशवाहा",
         "icon": "/team/shiva.png",
-        "height": "350px",
+        "height": "370px",
         "width": "249px",
         "designation": "अनुसंधान और विकास अध्यक्ष",
         "insta": "https://www.instagram.com/c_wa.143/"
@@ -129,7 +129,7 @@
         "id": 14,
         "name": "तौफीक आलम",
         "icon": "/team/taufiq.png",
-        "height": "320px",
+        "height": "340px",
         "width": "280px",
         "designation": "अनुसंधान और विकास अध्यक्ष",
         "insta": "https://www.instagram.com/safar_with_taufique/"
@@ -138,7 +138,7 @@
         "id": 15,
         "name": "नित्या सिंह",
         "icon": "/team/nitya.png",
-        "height": "360px",
+        "height": "430px",
         "width": "280px",
         "designation": "सामाजिक और पदोन्नति अध्यक्ष",
         "insta": "https://instagram.com"
@@ -147,7 +147,7 @@
         "id": 16,
         "name": "कनिष्का",
         "icon": "/team/kaniska.png",
-        "height": "320px",
+        "height": "350px",
         "width": "280px",
         "designation": "सामाजिक और पदोन्नति अध्यक्ष",
         "insta": "https://www.instagram.com/its_kanishka25/"
