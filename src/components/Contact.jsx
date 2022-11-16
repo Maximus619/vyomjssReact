@@ -21,11 +21,9 @@ function Contact() {
         const newEntry = { name: name, email: email, mobile: mobile, feedback: feedback }
         setAllEntry([...allEntry, newEntry])
         console.log(newEntry)
-        setName("");
-        setemail("");
-        setMobile("");
-        setFeedback("");
+
         if (validateForm() === true) {
+
             fetch(form.action, {
                 method: "POST",
                 body: new FormData(document.getElementById("sheetdb-form")),
@@ -34,7 +32,11 @@ function Contact() {
             thankYouMessage.classList.add('show');
             setTimeout(() => thankYouMessage.classList.remove('show'), 2000);
 
-            setTimeout(() => form.reset(), 2100);
+            // setTimeout(() => form.reset(), 2100);
+            setName("");
+            setemail("");
+            setMobile("");
+            setFeedback("");
         }
     }
     function validateForm() {
