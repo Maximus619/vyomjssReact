@@ -4,8 +4,8 @@
         "col": [
             {
                 "id": 0,
-                "name": "Dr. Amarjit Singh",
-                "icon": "/art/art4.png",
+                "name": "Dr. Amarjeet Singh",
+                "icon": "/about/principal.jpg",
                 "height": "300px",
                 "role": "Principal"
             },
