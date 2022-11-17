@@ -1,9 +1,10 @@
 import React from 'react'
 import '../resource/css/aboutus.css';
-import Principal from '../resource/images/principal.jpg';
-import Dean from '../resource/images/jagdish.jpeg';
-import SW from '../resource/images/prashant.jpeg';
-import HOD from '../resource/images/roli1.jpeg';
+import Abouts from '../about.json';
+// import Principal from '../resource/images/principal.jpg';
+// import Dean from '../resource/images/jagdish.jpeg';
+// import SW from '../resource/images/prashant.jpeg';
+// import HOD from '../resource/images/roli1.jpeg';
 
 function About() {
     return (
@@ -29,18 +30,28 @@ function About() {
             <section>
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-                            <div className="our-team">
-                                <div className="picture">
-                                    <img className="img-fluid" src={Principal} alt="" />
+                        {
+                            Abouts.map(abouts => {
+                                return <div className='row'>
+                                    <hr className="hr-text" data-content={abouts.heading} />
+                                    {abouts.col.map(cols => {
+                                        return <div className="col-12 col-sm-6 col-md-4 col-lg-3" key={abouts.id}>
+                                            <div className="our-team">
+                                                <div className="picture">
+                                                    <img className="img-fluid" loading='lazy' src={cols.icon} alt="" />
+                                                </div>
+                                                <div className="team-content">
+                                                    <h3 className="name">{cols.name}</h3>
+                                                    <h4 className="title">{cols.role}</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    })}
                                 </div>
-                                <div className="team-content">
-                                    <h3 className="name">Dr. Gurulingappa M Patil</h3>
-                                    <h4 className="title">Principal</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-12 col-sm-6 col-md-4 col-lg-3">
+                            })
+                        }
+
+                        {/* <div className="col-12 col-sm-6 col-md-4 col-lg-3">
                             <div className="our-team">
                                 <div className="picture">
                                     <img className="img-fluid" src={Dean} alt="" />
@@ -72,7 +83,7 @@ function About() {
                                     <h4 className="title">HOD (Chemistry) & Cultural Head </h4>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

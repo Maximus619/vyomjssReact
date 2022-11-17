@@ -1,0 +1,68 @@
+[
+    {
+        "heading": "Administration",
+        "col": [
+            {
+                "id": 0,
+                "name": "Dr. Amarjit Singh",
+                "icon": "/art/art4.png",
+                "height": "300px",
+                "role": "Principal"
+            },
+            {
+                "id": 2,
+                "name": "Dr. Jagadish Rampur Shivanna",
+                "icon": "/about/jagdish.jpeg",
+                "height": "300px",
+                "role": "Dean Academics & Chief Warden"
+            },
+            {
+                "id": 3,
+                "name": "Dr. Prashant Chauhan",
+                "icon": "/about/prashant.jpeg",
+                "height": "300px",
+                "role": "Dean Student Welfare"
+            },
+            {
+                "id": 4,
+                "name": "Dr. Roli Verma",
+                "icon": "/about/roli1.jpeg",
+                "height": "300px",
+                "role": "HOD (Chemistry) & Cultural Head"
+            }
+        ]
+    },
+    {
+        "heading": "Founders",
+        "col": [
+            {
+                "id": 0,
+                "name": "Amit Ranjan",
+                "icon": "/about/amitsir.png",
+                "height": "300px",
+                "role": "संस्थापक एवं अध्यक्ष"
+            },
+            {
+                "id": 2,
+                "name": "Devansh Dubey",
+                "icon": "/about/devanshsir.png",
+                "height": "300px",
+                "role": "सह-संस्थापक एवं व्यवस्थापिका अध्यक्ष"
+            },
+            {
+                "id": 3,
+                "name": "Dharmendra",
+                "icon": "/about/dharmendra.png",
+                "height": "300px",
+                "role": "लेखन और संपादन अघ्यक्ष"
+            },
+            {
+                "id": 4,
+                "name": "Abhinav",
+                "icon": "/about/abhinav.png",
+                "height": "300px",
+                "role": "तकनीकी एवं कला अध्यक्ष"
+            }
+        ]
+    }
+]
